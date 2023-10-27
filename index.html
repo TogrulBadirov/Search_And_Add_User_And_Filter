@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    
+    <main>
+        <section id="modal">
+            <div id="modal-box">
+                <button id="close">X</button>
+                <form action="">
+                    <label for="">Image</label>
+                    <input type="text" placeholder="Image" id="image">
+                    <label for="">Film adi</label>
+                    <input type="text" placeholder="Film adi" id="film-name">
+                    <label for="">Film IMDB</label>
+                    <input type="number" placeholder="Film IMDB" id="film-imdb">
+                    <label for="">Category</label>
+                    <select name="" id="category">
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Animation">Animation</option>
+                    </select>
+                    <label for="">Rejisor</label>
+                    <input type="text" placeholder="Rejisor" id="rejisor">
+                    <button type="submit" id="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="main">
+            <button id="add-button">Add</button>
+            <input type="text" placeholder="Search" id="search">
+            <select name="" id="categorySearch">
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Animation">Animation</option>
+            </select>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>image</th>
+                        <th>Film adi</th>
+                        <th>Film IMDB</th>
+                        <th>Category</th>
+                        <th>Rejisor</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
